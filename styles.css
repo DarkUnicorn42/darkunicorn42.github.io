@@ -1,17 +1,25 @@
 body {
     background-color: #333;
-    color: #fff;
+    color: #bbb;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
+#photo-section {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    border-radius: 20%;
+    height: 35%;
+    width: 35%;
+}
 header, main, footer {
     padding: 20px;
 }
 
-h1, h2 {
-    color: #fff;
+h1, h2, a {
+    color: #bbb;
 }
 
 section {
@@ -32,11 +40,3 @@ footer {
     color: #bbb;
 }
 
-#photo-section {
-    position: absolute;
-    top: 2%;
-    right: 2%;
-    border-radius: 25%;
-    height: 50%;
-    width: 50%;
-}
