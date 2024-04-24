@@ -6,6 +6,11 @@ body {
     padding: 0;
 }
 
+.wrapper {
+    width: 80%;  /* or any desired percentage or fixed width */
+    margin: 0 auto;  /* top and bottom margins are 0, left and right margins are automatic */
+}
+
 #photo-section {
     position: absolute;
     top: 1%;
