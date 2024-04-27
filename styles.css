@@ -23,7 +23,7 @@ header, main, footer {
     padding: 20px;
 }
 
-h1, h2, a {
+h1, h2, a, a:visited {
     color: #bbb;
 }
 
